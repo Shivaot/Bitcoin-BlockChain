@@ -9,8 +9,8 @@ class Block{
     toString(){
         return `Block -
         Timestamp: ${this.timestamp}
-        Last Hash: ${this.lastHash.substring(0,2)}
         Data     : ${this.data}
+        Last Hash: ${this.lastHash.substring(0,2)}
         Hash     : ${this.hash.substring(0,2)}`;
     }
 }
