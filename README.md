@@ -14,7 +14,9 @@ Packages required are:
 
     4.body-parser --> npm i body-parser --save
 
-    5.nodemon(optional) --> npm i nodemon
+    5.ws          --> npm i ws --save  
+
+    6.nodemon(optional) --> npm i nodemon
 
 Run :
 
