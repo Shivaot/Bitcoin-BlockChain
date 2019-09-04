@@ -20,8 +20,8 @@ Run :
 
     - npm run test
 
-    - npm run dev 
+    - npm run dev
 
-        - > localhos:3001/blocks
+        - > localhost:3001/blocks
 
-        - > localhos:3001/mine
+        - > localhost:3001/mine
