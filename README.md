@@ -1,10 +1,10 @@
-##Block chain project in node.js.
+## Block chain project in node.js.
 
-##This is a simple clone of Bitcoin network in with some new features.
+## This is a simple clone of Bitcoin network in with some new features.
 
-##Installation: npm install
+## Installation: npm install
 
-##Packages required are:
+## Packages required are:
 
     - crypto-js --> npm i crypto --save
 
@@ -18,7 +18,7 @@
 
     - nodemon(optional) --> npm i nodemon
 
-##Run :
+## Run :
 
     - npm run test
 
