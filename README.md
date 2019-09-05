@@ -2,7 +2,8 @@
 
 ## This is a simple clone of Bitcoin network in with some new features.
 
-## Installation: npm install
+## Installation:
+    - npm install
 
 ## Packages required are:
 
