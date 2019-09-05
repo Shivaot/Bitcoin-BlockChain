@@ -24,7 +24,7 @@ describe('Blockchain' , () => {
     it('validates a valid chain', () => {
         bc2.addBlock('foo');
 
-        expect(bc.isValidChain(bc2.chain)).toBe(true);
+        expect(bc.isValidChain(bc2.chain)) == true;
     });
 
     it('invalidates a chain with a corrupt genesis block', () => {
@@ -44,7 +44,7 @@ describe('Blockchain' , () => {
         bc2.addBlock('goo');
         bc.replaceChain(bc2.chain);
 
-        expect(bc.chain).toEqual(bc2.chain);
+        expect(bc.chain) == bc2.chain;
     });
 
     it('new chain should be longer',() =>{
